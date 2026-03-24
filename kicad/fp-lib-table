@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LIB_XC6SLX9-2CSG324C")(type "KiCad")(uri "${KIPRJMOD}/LIB_XC6SLX9-2CSG324C")(options "")(descr ""))
+  (lib (name "LIB_MT48LC64M8A2P-75_C")(type "KiCad")(uri "${KIPRJMOD}/LIB_MT48LC64M8A2P-75_C")(options "")(descr ""))
+)

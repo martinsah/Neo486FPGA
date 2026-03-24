@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XC6SLX9-2CSG324C
+D FPGA - Field Programmable Gate Array XC6SLX9-2CSG324C
+K
+F https://www.xilinx.com/content/dam/xilinx/support/packagefiles/s6packages/6slx9csg324pkg.txt
+$ENDCMP
+#
+#End Doc Library

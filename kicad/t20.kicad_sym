@@ -1,0 +1,2890 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "8.0")
+  (symbol "T20"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -30.48 330.2 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Value" "T20"
+      (at -30.48 327.65999999999997 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Footprint" ""
+      (at -30.48 327.025 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Datasheet" ""
+      (at -30.48 327.025 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Description" ""
+      (at -30.48 327.025 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_keywords" ""
+      (at -30.48 327.025 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_locked" ""
+      (at -30.48 327.025 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_fp_filters" ""
+      (at -30.48 327.025 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (symbol "T20_1_1"
+      (rectangle
+        (start -30.48 -326.39)
+        (end 30.48 326.39)
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type background)))
+      (pin passive line
+        (at -36.83 323.85 0)
+        (length 6.35)
+        (name "CDONE_1A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "R1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 321.31 0)
+        (length 6.35)
+        (name "CRESET_N_1A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "P1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 318.77 0)
+        (length 6.35)
+        (name "GPIOL_00_SS_N_1A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "P3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 316.22999999999996 0)
+        (length 6.35)
+        (name "GPIOL_01_CCK_1A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "M3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 313.68999999999994 0)
+        (length 6.35)
+        (name "GPIOL_02_1A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "P2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 311.1499999999999 0)
+        (length 6.35)
+        (name "GPIOL_04_CSI_1A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "N3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 308.6099999999999 0)
+        (length 6.35)
+        (name "GPIOL_05_CSO_1A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "L4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 306.0699999999999 0)
+        (length 6.35)
+        (name "GPIOL_08_CDI0_1A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "L3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 303.52999999999986 0)
+        (length 6.35)
+        (name "GPIOL_09_CDI1_1A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "N1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 300.98999999999984 0)
+        (length 6.35)
+        (name "TCK_1A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "M2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 298.4499999999998 0)
+        (length 6.35)
+        (name "TDI_1A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "K5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 295.9099999999998 0)
+        (length 6.35)
+        (name "TDO_1A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "L5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 293.3699999999998 0)
+        (length 6.35)
+        (name "TMS_1A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "M1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 290.82999999999976 0)
+        (length 6.35)
+        (name "GPIOL_11_1B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "J5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 288.28999999999974 0)
+        (length 6.35)
+        (name "GPIOL_12_CDI2_1B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "K4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 285.7499999999997 0)
+        (length 6.35)
+        (name "GPIOL_13_CDI3_1B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "L2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 283.2099999999997 0)
+        (length 6.35)
+        (name "GPIOL_14_1B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "J4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 280.6699999999997 0)
+        (length 6.35)
+        (name "GPIOL_15_1B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "K3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 278.12999999999965 0)
+        (length 6.35)
+        (name "GPIOL_16_1B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "J3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 275.58999999999963 0)
+        (length 6.35)
+        (name "GPIOL_18_1B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "K1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 273.0499999999996 0)
+        (length 6.35)
+        (name "GPIOL_19_1B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "K2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 270.5099999999996 0)
+        (length 6.35)
+        (name "GPIOL_20_CTRL0_CDI4_1B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "J2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 267.9699999999996 0)
+        (length 6.35)
+        (name "GPIOL_21_CTRL1_CDI5_1B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "H5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 265.42999999999955 0)
+        (length 6.35)
+        (name "GPIOL_22_CTRL2_1B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "H1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 262.88999999999953 0)
+        (length 6.35)
+        (name "GPIOL_23_CTRL3_1B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "L1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 260.3499999999995 0)
+        (length 6.35)
+        (name "GPIOL_24_CLK0_1B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "H3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 257.8099999999995 0)
+        (length 6.35)
+        (name "GPIOL_25_CLK1_1B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "H2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 255.2699999999995 0)
+        (length 6.35)
+        (name "GPIOL_26_CLK2_1B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "H4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 252.7299999999995 0)
+        (length 6.35)
+        (name "GPIOL_27_CLK3_1B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "G3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 250.18999999999951 0)
+        (length 6.35)
+        (name "GPIOL_28_CLK4_1C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "G5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 247.64999999999952 0)
+        (length 6.35)
+        (name "GPIOL_29_CLK5_1C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "G2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 245.10999999999953 0)
+        (length 6.35)
+        (name "GPIOL_30_CLK6_1C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "F1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 242.56999999999954 0)
+        (length 6.35)
+        (name "GPIOL_31_CLK7_CDI6_1C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "G1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 240.02999999999955 0)
+        (length 6.35)
+        (name "GPIOL_32_CTRL4_CDI7_1C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "F2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 237.48999999999955 0)
+        (length 6.35)
+        (name "GPIOL_33_CTRL5_1C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "C1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 234.94999999999956 0)
+        (length 6.35)
+        (name "GPIOL_34_CTRL6_1C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "E2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 232.40999999999957 0)
+        (length 6.35)
+        (name "GPIOL_35_CTRL7_1C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "F3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 229.86999999999958 0)
+        (length 6.35)
+        (name "GPIOL_36_1C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "D1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 227.3299999999996 0)
+        (length 6.35)
+        (name "GPIOL_37_1C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "E1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 224.7899999999996 0)
+        (length 6.35)
+        (name "GPIOL_39_1C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "E3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 222.2499999999996 0)
+        (length 6.35)
+        (name "GPIOL_40_CDI8_1C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "F5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 219.7099999999996 0)
+        (length 6.35)
+        (name "GPIOL_41_CDI9_1C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "C2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 217.16999999999962 0)
+        (length 6.35)
+        (name "GPIOL_42_1C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "G4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 214.62999999999963 0)
+        (length 6.35)
+        (name "GPIOL_43_1C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "F4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 212.08999999999963 0)
+        (length 6.35)
+        (name "GPIOL_44_1D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "B1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 209.54999999999964 0)
+        (length 6.35)
+        (name "GPIOL_45_1D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "B2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 207.00999999999965 0)
+        (length 6.35)
+        (name "GPIOL_46_1D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "D3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 204.46999999999966 0)
+        (length 6.35)
+        (name "GPIOL_47_1D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "D4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 201.92999999999967 0)
+        (length 6.35)
+        (name "GPIOL_48_1D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "C3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 199.38999999999967 0)
+        (length 6.35)
+        (name "GPIOL_49_1D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "D5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 196.84999999999968 0)
+        (length 6.35)
+        (name "GPIOL_50_1D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "A2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 194.3099999999997 0)
+        (length 6.35)
+        (name "GPIOL_51_1D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "C4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 191.7699999999997 0)
+        (length 6.35)
+        (name "GPIOL_52_1D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "B3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 189.2299999999997 0)
+        (length 6.35)
+        (name "GPIOL_53_CDI10_1D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "B4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 186.6899999999997 0)
+        (length 6.35)
+        (name "GPIOL_54_CDI11_1D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "D6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 184.14999999999972 0)
+        (length 6.35)
+        (name "GPIOL_55_1D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "E4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 181.60999999999973 0)
+        (length 6.35)
+        (name "GPIOL_56_1D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "E6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 179.06999999999974 0)
+        (length 6.35)
+        (name "GPIOL_57_1D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "A3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 176.52999999999975 0)
+        (length 6.35)
+        (name "GPIOL_58_1D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "C6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 173.98999999999975 0)
+        (length 6.35)
+        (name "GPIOL_59_1D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "A4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 171.44999999999976 0)
+        (length 6.35)
+        (name "GPIOL_60_1D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "E5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 168.90999999999977 0)
+        (length 6.35)
+        (name "GPIOL_61_1D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "B5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 166.36999999999978 0)
+        (length 6.35)
+        (name "GPIOL_62_1E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "A7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 163.82999999999979 0)
+        (length 6.35)
+        (name "GPIOL_63_1E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "B7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 161.2899999999998 0)
+        (length 6.35)
+        (name "GPIOL_64_1E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "B6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 158.7499999999998 0)
+        (length 6.35)
+        (name "GPIOL_65_1E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "A6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 156.2099999999998 0)
+        (length 6.35)
+        (name "GPIOL_66_CDI12_1E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "A8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 153.66999999999982 0)
+        (length 6.35)
+        (name "GPIOL_67_CDI13_1E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "C5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 151.12999999999982 0)
+        (length 6.35)
+        (name "GPIOL_68_1E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "E7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 148.58999999999983 0)
+        (length 6.35)
+        (name "GPIOL_69_CBSEL1_1E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "D7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 146.04999999999984 0)
+        (length 6.35)
+        (name "GPIOL_70_CBSEL0_1E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "C7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 143.50999999999985 0)
+        (length 6.35)
+        (name "GPIOL_71_NSTATUS_1E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "B8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 140.96999999999986 0)
+        (length 6.35)
+        (name "GPIOL_72_EXTFB0_CDI14_1E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "C8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 138.42999999999986 0)
+        (length 6.35)
+        (name "GPIOL_73_EXTFB1_CDI15_1E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "D8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 135.88999999999987 0)
+        (length 6.35)
+        (name "GPIOL_74_PLLIN0_1E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "D9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 133.34999999999988 0)
+        (length 6.35)
+        (name "GPIOL_75_PLLIN1_1E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "E8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 130.8099999999999 0)
+        (length 6.35)
+        (name "GPIOR_76_PLLIN0_3A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "C9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 128.2699999999999 0)
+        (length 6.35)
+        (name "GPIOR_77_PLLIN1_3A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "D10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 125.72999999999989 0)
+        (length 6.35)
+        (name "GPIOR_78_EXTFB0_CDI31_3A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "A9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 123.18999999999988 0)
+        (length 6.35)
+        (name "GPIOR_79_EXTFB1_CDI30_3A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "A10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 120.64999999999988 0)
+        (length 6.35)
+        (name "GPIOR_80_3A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "B9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 118.10999999999987 0)
+        (length 6.35)
+        (name "GPIOR_81_MREFCLK_3A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "C10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 115.56999999999987 0)
+        (length 6.35)
+        (name "GPIOR_82_3A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "B10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 113.02999999999986 0)
+        (length 6.35)
+        (name "GPIOR_83_3A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "B11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 110.48999999999985 0)
+        (length 6.35)
+        (name "GPIOR_84_3A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "A11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 107.94999999999985 0)
+        (length 6.35)
+        (name "GPIOR_85_3A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "C12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 105.40999999999984 0)
+        (length 6.35)
+        (name "GPIOR_86_3A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "C11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 102.86999999999983 0)
+        (length 6.35)
+        (name "GPIOR_87_CDI29_3A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "D11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 100.32999999999983 0)
+        (length 6.35)
+        (name "GPIOR_88_CDI28_3A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "E11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 97.78999999999982 0)
+        (length 6.35)
+        (name "GPIOR_89_3A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "D12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 95.24999999999982 0)
+        (length 6.35)
+        (name "GPIOR_102_3B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "C14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 92.70999999999981 0)
+        (length 6.35)
+        (name "GPIOR_103_3B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "D13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 90.1699999999998 0)
+        (length 6.35)
+        (name "GPIOR_104_CDI25_3B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "D14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 87.6299999999998 0)
+        (length 6.35)
+        (name "GPIOR_105_CDI24_3B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "E13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 85.08999999999979 0)
+        (length 6.35)
+        (name "GPIOR_106_3B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "B16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 82.54999999999978 0)
+        (length 6.35)
+        (name "GPIOR_90_3B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "A14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 80.00999999999978 0)
+        (length 6.35)
+        (name "GPIOR_91_3B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "E12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 77.46999999999977 0)
+        (length 6.35)
+        (name "GPIOR_92_3B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "B14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 74.92999999999977 0)
+        (length 6.35)
+        (name "GPIOR_93_3B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "B12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 72.38999999999976 0)
+        (length 6.35)
+        (name "GPIOR_94_CDI27_3B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "A15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 69.84999999999975 0)
+        (length 6.35)
+        (name "GPIOR_95_CDI26_3B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "A13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 67.30999999999975 0)
+        (length 6.35)
+        (name "GPIOR_97_3B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "B13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 64.76999999999974 0)
+        (length 6.35)
+        (name "GPIOR_98_3B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "B15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 62.22999999999974 0)
+        (length 6.35)
+        (name "GPIOR_99_3B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "C13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 59.68999999999974 0)
+        (length 6.35)
+        (name "GPIOR_108_3C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "C16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 57.14999999999974 0)
+        (length 6.35)
+        (name "GPIOR_110_3C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "E14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 54.609999999999744 0)
+        (length 6.35)
+        (name "GPIOR_111_3C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "F12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 52.069999999999744 0)
+        (length 6.35)
+        (name "GPIOR_112_CDI23_3C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "C15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 49.529999999999745 0)
+        (length 6.35)
+        (name "GPIOR_113_CDI22_3C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "F13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 46.989999999999746 0)
+        (length 6.35)
+        (name "GPIOR_116_CTRL15_3C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "D16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 44.44999999999975 0)
+        (length 6.35)
+        (name "GPIOR_117_CTRL14_3C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "G13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 41.90999999999975 0)
+        (length 6.35)
+        (name "GPIOR_118_CTRL13_3C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "F14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 39.36999999999975 0)
+        (length 6.35)
+        (name "GPIOR_119_CTRL12_3C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "E16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 36.82999999999975 0)
+        (length 6.35)
+        (name "GPIOR_120_CLK15_3C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "E15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 34.28999999999975 0)
+        (length 6.35)
+        (name "GPIOR_121_CLK14_3C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "G12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 31.74999999999975 0)
+        (length 6.35)
+        (name "GPIOR_122_CLK13_CDI21_3C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "F15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 29.209999999999752 0)
+        (length 6.35)
+        (name "GPIOR_123_CLK12_CDI20_3C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "F16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 26.669999999999753 0)
+        (length 6.35)
+        (name "GPIOR_124_CLK11_3D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "G15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 24.129999999999754 0)
+        (length 6.35)
+        (name "GPIOR_125_CLK10_3D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "H13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 21.589999999999755 0)
+        (length 6.35)
+        (name "GPIOR_126_CLK9_3D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "G16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 19.049999999999756 0)
+        (length 6.35)
+        (name "GPIOR_127_CLK8_3D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "G14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 16.509999999999756 0)
+        (length 6.35)
+        (name "GPIOR_128_CTRL11_3D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "H14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 13.969999999999757 0)
+        (length 6.35)
+        (name "GPIOR_129_CTRL10_3D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "H15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 11.429999999999758 0)
+        (length 6.35)
+        (name "GPIOR_130_CTRL9_3D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "H16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 8.889999999999759 0)
+        (length 6.35)
+        (name "GPIOR_131_CTRL8_3D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "J15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 6.349999999999759 0)
+        (length 6.35)
+        (name "GPIOR_132_CDI19_3D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "K16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 3.809999999999759 0)
+        (length 6.35)
+        (name "GPIOR_133_CDI18_3D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "J13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 1.2699999999997589 0)
+        (length 6.35)
+        (name "GPIOR_135_CDI17_3D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "J14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -1.2700000000002412 0)
+        (length 6.35)
+        (name "GPIOR_136_CDI16_3D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "K15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -3.810000000000241 0)
+        (length 6.35)
+        (name "GPIOR_138_3D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "K14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -6.350000000000241 0)
+        (length 6.35)
+        (name "GPIOR_139_3D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "H12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -8.890000000000242 0)
+        (length 6.35)
+        (name "GPIOR_141_3D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "J12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -11.430000000000241 0)
+        (length 6.35)
+        (name "GPIOR_143_3E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "L16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -13.97000000000024 0)
+        (length 6.35)
+        (name "GPIOR_144_3E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "M15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -16.51000000000024 0)
+        (length 6.35)
+        (name "GPIOR_145_3E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "M16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -19.05000000000024 0)
+        (length 6.35)
+        (name "GPIOR_146_3E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "P16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -21.590000000000238 0)
+        (length 6.35)
+        (name "GPIOR_147_3E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "L15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -24.130000000000237 0)
+        (length 6.35)
+        (name "GPIOR_148_3E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "K12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -26.670000000000236 0)
+        (length 6.35)
+        (name "GPIOR_149_CBUS2_3E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "R16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -29.210000000000235 0)
+        (length 6.35)
+        (name "GPIOR_150_CBUS1_3E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "L14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -31.750000000000234 0)
+        (length 6.35)
+        (name "GPIOR_151_CBUS0_3E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "K13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -34.290000000000234 0)
+        (length 6.35)
+        (name "GPIOR_153_3E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "N14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -36.83000000000023 0)
+        (length 6.35)
+        (name "GPIOR_154_3E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "N16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -39.37000000000023 0)
+        (length 6.35)
+        (name "GPIOR_155_3E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "P15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -41.91000000000023 0)
+        (length 6.35)
+        (name "GPIOR_156_3E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "M14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -44.45000000000023 0)
+        (length 6.35)
+        (name "GPIOR_157_PLLIN_3E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "L13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -46.99000000000023 0)
+        (length 6.35)
+        (name "GPIOR_158_TEST_N_3E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "L12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -49.53000000000023 0)
+        (length 6.35)
+        (name "GPIOB_CLKN0_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "M13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -52.07000000000023 0)
+        (length 6.35)
+        (name "GPIOB_CLKP0_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "M12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -54.61000000000023 0)
+        (length 6.35)
+        (name "GPIOB_RXN00_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "R9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -57.150000000000226 0)
+        (length 6.35)
+        (name "GPIOB_RXN01_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "M9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -59.690000000000225 0)
+        (length 6.35)
+        (name "GPIOB_RXN02_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "T10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -62.230000000000224 0)
+        (length 6.35)
+        (name "GPIOB_RXN03_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "N10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -64.77000000000022 0)
+        (length 6.35)
+        (name "GPIOB_RXN04_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "R11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -67.31000000000023 0)
+        (length 6.35)
+        (name "GPIOB_RXN05_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "M11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -69.85000000000024 0)
+        (length 6.35)
+        (name "GPIOB_RXN06_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "P11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -72.39000000000024 0)
+        (length 6.35)
+        (name "GPIOB_RXN07_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "R12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -74.93000000000025 0)
+        (length 6.35)
+        (name "GPIOB_RXN08_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "P13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -77.47000000000025 0)
+        (length 6.35)
+        (name "GPIOB_RXN09_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "R14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -80.01000000000026 0)
+        (length 6.35)
+        (name "GPIOB_RXN10_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "N12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -82.55000000000027 0)
+        (length 6.35)
+        (name "GPIOB_RXN11_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "R15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -85.09000000000027 0)
+        (length 6.35)
+        (name "GPIOB_RXN12_EXTFB0_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "N13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -87.63000000000028 0)
+        (length 6.35)
+        (name "GPIOB_RXP00_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "P9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -90.17000000000029 0)
+        (length 6.35)
+        (name "GPIOB_RXP01_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "N9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -92.71000000000029 0)
+        (length 6.35)
+        (name "GPIOB_RXP02_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "T9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -95.2500000000003 0)
+        (length 6.35)
+        (name "GPIOB_RXP03_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "P10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -97.7900000000003 0)
+        (length 6.35)
+        (name "GPIOB_RXP04_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "T11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -100.33000000000031 0)
+        (length 6.35)
+        (name "GPIOB_RXP05_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "M10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -102.87000000000032 0)
+        (length 6.35)
+        (name "GPIOB_RXP06_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "N11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -105.41000000000032 0)
+        (length 6.35)
+        (name "GPIOB_RXP07_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "T12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -107.95000000000033 0)
+        (length 6.35)
+        (name "GPIOB_RXP08_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "R13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -110.49000000000034 0)
+        (length 6.35)
+        (name "GPIOB_RXP09_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "T14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -113.03000000000034 0)
+        (length 6.35)
+        (name "GPIOB_RXP10_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "P12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -115.57000000000035 0)
+        (length 6.35)
+        (name "GPIOB_RXP11_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "T15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -118.11000000000035 0)
+        (length 6.35)
+        (name "GPIOB_RXP12_EXTFB0_4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "P14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -120.65000000000036 0)
+        (length 6.35)
+        (name "GPIOB_TXN00_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "M5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -123.19000000000037 0)
+        (length 6.35)
+        (name "GPIOB_TXN01_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "P4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -125.73000000000037 0)
+        (length 6.35)
+        (name "GPIOB_TXN02_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "R4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -128.27000000000038 0)
+        (length 6.35)
+        (name "GPIOB_TXN03_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "T3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -130.81000000000037 0)
+        (length 6.35)
+        (name "GPIOB_TXN04_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "P5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -133.35000000000036 0)
+        (length 6.35)
+        (name "GPIOB_TXN05_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "M7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -135.89000000000036 0)
+        (length 6.35)
+        (name "GPIOB_TXN06_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "P6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -138.43000000000035 0)
+        (length 6.35)
+        (name "GPIOB_TXN07_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "T5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -140.97000000000034 0)
+        (length 6.35)
+        (name "GPIOB_TXN08_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "T6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -143.51000000000033 0)
+        (length 6.35)
+        (name "GPIOB_TXN09_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "P7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -146.05000000000032 0)
+        (length 6.35)
+        (name "GPIOB_TXN10_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "T7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -148.59000000000032 0)
+        (length 6.35)
+        (name "GPIOB_TXN11_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "N8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -151.1300000000003 0)
+        (length 6.35)
+        (name "GPIOB_TXN12_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "P8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -153.6700000000003 0)
+        (length 6.35)
+        (name "GPIOB_TXP00_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "M4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -156.2100000000003 0)
+        (length 6.35)
+        (name "GPIOB_TXP01_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "N4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -158.75000000000028 0)
+        (length 6.35)
+        (name "GPIOB_TXP02_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "R3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -161.29000000000028 0)
+        (length 6.35)
+        (name "GPIOB_TXP03_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "T2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -163.83000000000027 0)
+        (length 6.35)
+        (name "GPIOB_TXP04_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "N5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -166.37000000000026 0)
+        (length 6.35)
+        (name "GPIOB_TXP05_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "M6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -168.91000000000025 0)
+        (length 6.35)
+        (name "GPIOB_TXP06_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "N6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -171.45000000000024 0)
+        (length 6.35)
+        (name "GPIOB_TXP07_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "R5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -173.99000000000024 0)
+        (length 6.35)
+        (name "GPIOB_TXP08_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "R6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -176.53000000000023 0)
+        (length 6.35)
+        (name "GPIOB_TXP09_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "N7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -179.07000000000022 0)
+        (length 6.35)
+        (name "GPIOB_TXP10_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "T8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -181.6100000000002 0)
+        (length 6.35)
+        (name "GPIOB_TXP11_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "M8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -184.1500000000002 0)
+        (length 6.35)
+        (name "GPIOB_TXP12_4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "R8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -186.6900000000002 0)
+        (length 6.35)
+        (name "REF_RES"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "R2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -189.2300000000002 0)
+        (length 6.35)
+        (name "VCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "E9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -191.77000000000018 0)
+        (length 6.35)
+        (name "VCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "F8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -194.31000000000017 0)
+        (length 6.35)
+        (name "VCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "F9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -196.85000000000016 0)
+        (length 6.35)
+        (name "VCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "J6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -199.39000000000016 0)
+        (length 6.35)
+        (name "VCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "J7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -201.93000000000015 0)
+        (length 6.35)
+        (name "VCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "K9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -204.47000000000014 0)
+        (length 6.35)
+        (name "VCCA_BR"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "K11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -207.01000000000013 0)
+        (length 6.35)
+        (name "VCCA_TL"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "F7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -209.55000000000013 0)
+        (length 6.35)
+        (name "VCCA_TR"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "G11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -212.09000000000012 0)
+        (length 6.35)
+        (name "VCCIO1A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "K6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -214.6300000000001 0)
+        (length 6.35)
+        (name "VCCIO1B_1C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "H6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -217.1700000000001 0)
+        (length 6.35)
+        (name "VCCIO1B_1C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "H7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -219.7100000000001 0)
+        (length 6.35)
+        (name "VCCIO1D_1E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "F6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -222.25000000000009 0)
+        (length 6.35)
+        (name "VCCIO1D_1E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "G6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -224.79000000000008 0)
+        (length 6.35)
+        (name "VCCIO3A_3B_3C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "E10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -227.33000000000007 0)
+        (length 6.35)
+        (name "VCCIO3A_3B_3C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "F10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -229.87000000000006 0)
+        (length 6.35)
+        (name "VCCIO3A_3B_3C"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "F11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -232.41000000000005 0)
+        (length 6.35)
+        (name "VCCIO3D_3E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "J10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -234.95000000000005 0)
+        (length 6.35)
+        (name "VCCIO3D_3E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "J11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -237.49000000000004 0)
+        (length 6.35)
+        (name "VCCIO4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "L10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -240.03000000000003 0)
+        (length 6.35)
+        (name "VCCIO4A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "L11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -242.57000000000002 0)
+        (length 6.35)
+        (name "VCCIO4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "L6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -245.11 0)
+        (length 6.35)
+        (name "VCCIO4B"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "L7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -247.65 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "A1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -250.19 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "A12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -252.73 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "A16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -255.26999999999998 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "A5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -257.81 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "D15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -260.35 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "D2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -262.89000000000004 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "G10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -265.43000000000006 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "G7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -267.9700000000001 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "G8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -270.5100000000001 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "G9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -273.0500000000001 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "H10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -275.59000000000015 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "H11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -278.13000000000017 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "H8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -280.6700000000002 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "H9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -283.2100000000002 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "J1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -285.7500000000002 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "J16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -288.29000000000025 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "J8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -290.83000000000027 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "J9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -293.3700000000003 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "K10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -295.9100000000003 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "K7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -298.45000000000033 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "K8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -300.99000000000035 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "L8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -303.53000000000037 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "L9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -306.0700000000004 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "N15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -308.6100000000004 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "N2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -311.15000000000043 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "R10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -313.69000000000045 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "R7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -316.2300000000005 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "T1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -318.7700000000005 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "T13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -321.3100000000005 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "T16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -36.83 -323.85000000000053 0)
+        (length 6.35)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "T4"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))

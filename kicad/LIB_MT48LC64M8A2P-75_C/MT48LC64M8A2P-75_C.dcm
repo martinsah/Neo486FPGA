@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MT48LC64M8A2P-75_C
+D DRAM 512Mb, 3.3v, 133Mhz 64M x 8 SDR
+K
+F https://componentsearchengine.com/Datasheets/1/MT48LC64M8A2P-75_C.pdf
+$ENDCMP
+#
+#End Doc Library
